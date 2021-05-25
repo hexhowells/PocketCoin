@@ -1,7 +1,9 @@
 <p align="center">
   <img src="https://github.com/hexhowells/PocketCoin/blob/main/logo.png" width=80%>
 </p>
-PocketCoin is a small and simple cryptocurrency / blockchain designed to learn about the technology behind blockchains as well as to learn the Go programming language and isn't a full implimentation that can or should be used. 
+PocketCoin is a small and simple cryptocurrency / blockchain designed to learn about the technology behind blockchains as well as to learn the Go programming language and isn't a full implimentation that can or should be used.
+
+-----
 
 The blockchain network is comprised of 3 node types:
 - ```wallet.go``` - used to broadcast transactions and get wallet balalnces
