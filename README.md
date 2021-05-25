@@ -3,6 +3,7 @@
 </p>
 PocketCoin is a small and simple cryptocurrency / blockchain designed to learn about the technology behind blockchains as well as to learn the Go programming language and isn't a full implimentation that can or should be used.
 
+Overview
 -----
 
 The blockchain network is comprised of 3 node types:
@@ -31,6 +32,7 @@ Features / Notes
 
 Usage
 -----
+Start ```LaunchNetwork.bat``` to launch the network locally, batch file launches a few nodes and miners.
 #### Node.go
 ```
     -f                      Specify the folder containing the blockchain.
@@ -55,6 +57,7 @@ Usage
 
 #### blockExplorer.go
 ```
+    -f                      Folder that stores the blockchain to be explored
     -b                      View the balance of all the wallets found on the network
     -blk                    Block ID of a given block to view
     -c                      View the number of coins currently in circulation
