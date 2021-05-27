@@ -1,0 +1,11 @@
+start cmd /k "go run node.go -f shards/BlockchainN1 -p 5555"
+start cmd /k "go run node.go -f shards/BlockchainN2 -p 5556"
+start cmd /k "go run node.go -f shards/BlockchainN3 -p 5557"
+start cmd /k "go run node.go -f shards/BlockchainN4 -p 5558"
+start cmd /k "go run node.go -f shards/BlockchainN5 -p 5559"
+timeout 3 > NUL
+start cmd /k "go run miner.go -w 0d947ab07e03a2f33debb98b41ed5ea4 -f shards/BlockchainM1 -p 2221"
+start cmd /k "go run miner.go -w 8b049e1e50cc1ef45625332f0c727c3e -f shards/BlockchainM2 -p 2222"
+start cmd /k "go run miner.go -w 98f7482b7b93244e5a3e30e9bad76107 -f shards/BlockchainM3 -p 2223"
+start cmd /k "go run miner.go -w e50f8a0089db3ce621c492325474b8e6 -f shards/BlockchainM4 -p 2224"
+start cmd /k "go run miner.go -w 61d01b184a4db220775a2169474f73e5 -f shards/BlockchainM5 -p 2225"
