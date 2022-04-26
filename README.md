@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://github.com/hexhowells/PocketCoin/blob/main/logo.png" width=80%>
 </p>
-PocketCoin is a small and simple cryptocurrency / blockchain designed to learn about the technology behind blockchains as well as to learn the Go programming language and isn't a full implimentation that can or should be used.
+PocketCoin is a small and simple toy cryptocurrency / blockchain designed to learn about the technology behind blockchains as well as to learn the Go programming language.
 
 Overview
 -----
